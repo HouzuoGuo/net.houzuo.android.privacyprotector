@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_description"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/manageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/manage_policy" />
+
+    <ToggleButton
+        android:id="@+id/serviceToggleButtion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="@string/protector_stopped"
+        android:textOn="@string/protector_running" />
+
+    <ToggleButton
+        android:id="@+id/notificationToggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="@string/notification_on"
+        android:textOff="@string/notification_off" />
+
+    <Button
+        android:id="@+id/howButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/how_this_works" />
+
+    <TextView
+        android:id="@+id/fedbackTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/feedback" />
+
+    <TableLayout
+        android:id="@+id/powerStatusTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom" >
+
+        <TableRow
+            android:id="@+id/locationTableRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/powerStatusTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/power_status" />
+
+            <ToggleButton
+                android:id="@+id/gpsToggleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/gps"
+                android:textOn="@string/gps" />
+
+            <ToggleButton
+                android:id="@+id/networkLocationToggleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/network_location"
+                android:textOn="@string/network_location" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/netTableRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ToggleButton
+                android:id="@+id/mobileDataToggleButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textOff="@string/mobile_data"
+                android:textOn="@string/mobile_data" />
+
+            <ToggleButton
+                android:id="@+id/wifiToggleButtion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/wifi"
+                android:textOn="@string/wifi" />
+
+            <ToggleButton
+                android:id="@+id/bluetoothToggleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="@string/bluetooth"
+                android:textOn="@string/bluetooth" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

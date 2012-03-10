@@ -1,0 +1,5 @@
+uses-feature:impact=2:android.hardware.bluetooth
+uses-permission:impact=1:BLUETOOTH_ADMIN
+uses-permission:impact=1:CHANGE_WIFI_STATE
+
+impact-summary: [5]=0; [4]=0; [3]=0; [2]=1; [1]=2;

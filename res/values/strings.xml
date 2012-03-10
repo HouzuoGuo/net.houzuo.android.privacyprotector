@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Privacy Protector</string>
+    <string name="app_description">Stop certain apps from accessing the Internet or your geolocation, no matter your device is rooted or not.</string>
+    <string name="wifi">Wifi</string>
+    <string name="mobile_data">Mobile data</string>
+    <string name="gps">GPS</string>
+    <string name="network_location">Net location</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="power_status">Power Status</string>
+    <string name="protector_running">Protector Running</string>
+    <string name="protector_stopped">Protector Stopped</string>
+    <string name="feedback">Your feedback is very valuable! Please send feedback to the author, Twitter@hzguo or mailto:guoHouzuo@Gmail.com. Thank you!</string>
+    <string name="how_this_works">How this works?</string>
+    <string name="manage_policy">Manage Application Policy</string>
+    <string name="how_this_actually_works">First click "Manage Application Policy". 
+        Then start the protector.
+        According to the policy, Internet and/or location services will be automatically turned OFF 
+        when certain apps run. 
+        After they finish running, 
+        pull down notification bar and click "Reset settings" 
+        to reset Internet and/or location settings.</string>
+    <string name="bluetooth_disabled">Privacy Protector has disabled Bluetooth</string>
+    <string name="wifi_disabled">Privacy Protector has disabled WiFi</string>
+    <string name="mobile_data_disable">Privacy Protector: Disable Mobile Data please (Mobile networks -> untick "Data enabled")</string>
+    <string name="network_location_disable">Privacy Protector: Disable Network Location please</string>
+    <string name="gps_disable">Privacy Protector: Disable GPS please</string>
+    <string name="bluetooth_restored">Privacy Protector has re-enabled Bluetooth</string>
+    <string name="wifi_restored">Privacy Protector has re-enabled WiFi</string>
+    <string name="mobile_data_restore">Privacy Protector: Re-enable Mobile Data if you wish</string>
+    <string name="network_location_restore">Privacy Protector: Re-enable Network Location if you wish</string>
+    <string name="gps_restore">Privacy Protector: Re-enable GPS if you wish</string>
+    <string name="restore_notification_title">Privacy Protector</string>
+    <string name="restore_notification_message">Click to restore your settings</string>
+    <string name="save">Save Policy</string>
+    <string name="cancel">Cancel</string>
+    <string name="app_icon_description">Application icon</string>
+    <string name="net">NET</string>
+    <string name="tick_net">Tick "NET" for no Internet</string>
+    <string name="loc">LOC</string>
+    <string name="tick_loc">Tick "LOC" for no Location</string>
+    <string name="notification_on">Notification: ON</string>
+    <string name="notification_off">Notification: OFF</string>
+
+</resources>
